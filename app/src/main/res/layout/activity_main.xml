@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context="com.example.my_pc.myapplication.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/getMsgId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="20sp"
+                android:hint="Your Message"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:id="@+id/getPassId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="20sp"
+                android:hint="Your Password"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btnEnc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="20sp"
+                android:text="Encript"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:id="@+id/viewEncMsgId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="30sp"
+                android:hint="Your Password"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:id="@+id/getDecPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="20sp"
+                android:hint="Decript Password"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btnDec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="20sp"
+                android:text="Decript"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:id="@+id/dicriptMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="20sp"
+                android:hint="Decript Message"
+                android:textSize="25sp" />
+
+
+            ☺
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
